@@ -4,6 +4,7 @@
 # Tool takes a single armature with potentially several meshes and replicates that armature several times. For each time, unique shapekeys and bone poses can be set.
 # Recommend the active Blender file backed up before using.
 # Update object_name, space_between_each and alts[]. Samples are provided below.
+# After the script is run, the user will need to apply the shape keys on the new meshes and apply the armature's pose to the meshes.
 
 from dataclasses import dataclass
 
